@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fullscreen Background Image -->
+    <ImageView
+        android:id="@+id/onboarding_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/onboarding_image"
+        android:scaleType="centerCrop" />
+
+    <!-- Gradient Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_overlay" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        android:fontFamily="@font/judsonitalic"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.02"
+        android:shadowColor="#80000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="6"
+        android:textAlignment="center"/>
+
+    <!-- Description Box -->
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_text"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:background="@drawable/rounded_transparent_box"
+        android:text="@string/description_text"
+        android:textSize="25sp"
+        android:fontFamily="@font/judsonitalic"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:lineSpacingExtra="6dp"
+        android:lineSpacingMultiplier="1.2" />
+
+    <!-- Get Started Button -->
+    <Button
+        android:id="@+id/btn_to_login"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:text="@string/get_started_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginBottom="40dp"
+        android:elevation="6dp" />
+
+</RelativeLayout>

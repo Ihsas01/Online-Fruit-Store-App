@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <!-- Profile Section -->
+    <LinearLayout
+        android:id="@+id/profile_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="60dp">
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_profile_avatar"
+            android:scaleType="centerCrop"
+            android:padding="5dp"/>
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_name"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_email"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <!-- Menu List -->
+    <LinearLayout
+        android:id="@+id/menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_section"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/your_orders"
+            style="@style/MenuItem">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_order" />
+            <TextView style="@style/MenuText" android:text="@string/your_order" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/notifications"
+            style="@style/MenuItem">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_notification" />
+            <TextView style="@style/MenuText" android:text="@string/notification" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/coupons"
+            style="@style/MenuItem">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_coupon" />
+            <TextView style="@style/MenuText" android:text="@string/coupons" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/payment_methods"
+            style="@style/MenuItem">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_payment" />
+            <TextView style="@style/MenuText" android:text="@string/payment_methods" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/get_help"
+            style="@style/MenuItem">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_help" />
+            <TextView style="@style/MenuText" android:text="@string/get_help" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/about"
+            style="@style/MenuItem">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_about" />
+            <TextView style="@style/MenuText" android:text="@string/about" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/log_out"
+        android:textSize="25sp"
+        android:backgroundTint="@color/errorColor"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/menu_list"
+        android:layout_marginTop="50dp" />
+
+    <!-- Bottom Navigation -->
+    <LinearLayout
+        android:id="@+id/bottomNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/ic_home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_home"
+            android:layout_weight="1"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:id="@+id/ic_goal"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_goal"
+            android:layout_weight="1"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_settings"
+            android:layout_weight="1"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:id="@+id/ic_profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_profile"
+            android:layout_weight="1"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

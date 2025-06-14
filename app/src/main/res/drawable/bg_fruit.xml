@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/fruits_background"
+    android:tileMode="disabled"
+    android:width="200dp"
+    android:height="200dp" />

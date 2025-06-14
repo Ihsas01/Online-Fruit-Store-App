@@ -1,0 +1,364 @@
+<resources>
+    <string name="app_name">Mad Leb Test-2</string>
+
+    //Onboard
+    <string name="welcome_text">Welcome to Fruits_Store</string>
+    <string name="description_text">Welcome to Fruits Store, your go-to online fruits store for the freshest seasonal and exotic fruits! We offer high-quality, farm-fresh produce, secure payments, and fast home delivery to ensure a hassle-free shopping experience. Shop with us and enjoy the best fruits at your doorstep!</string>
+    <string name="get_started_button">Get Started</string>
+
+
+    <!-- Login Screen Strings -->
+    <string name="getting_started">Getting Started</string>
+    <string name="login_explore_more">Login to Explore More</string>
+    <string name="email_hint">Example@gmail.com</string>
+    <string name="password_hint">* * * * * * * * </string> <!-- Replace with a placeholder if necessary -->
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_button">Login</string>
+    <string name="dont_have_account">Don’t Have an Account?</string>
+    <string name="sign_up">Sign Up</string>
+
+
+    //sign up
+    <!-- Sign-In Page Strings -->
+
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="enter_phone_number_hint">Enter your phone number</string>
+    <string name="enter_email_hint">example@example.com</string>
+    <string name="enter_password_hint">* * * * * * * * *</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="or_text">or</string>
+
+    <!-- Social Media Login -->
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+
+    <!-- Back Button -->
+    <string name="back_button_description">Back</string>
+
+
+    //home
+    <!-- Search Bar -->
+    <string name="search_hint">Search .....</string>
+
+    <!-- Fresh Fruits Section -->
+    <string name="fresh_fruits">Fresh Fruits</string>
+    <string name="see_all">See All</string>
+
+    <!-- Fruit Names and Prices -->
+    <string name="fresh_apple">Fresh Apple</string>
+    <string name="apple_price">RS 200</string>
+
+    <string name="orange">Orange</string>
+    <string name="orange_price">RS 400</string>
+
+    <string name="pineapple">Pineapple</string>
+    <string name="pineapple_price">RS 300</string>
+
+    <string name="banana">Banana</string>
+    <string name="banana_price">RS 150</string>
+
+    <string name="mango">Mango</string>
+    <string name="mango_price">RS 250</string>
+
+    <string name="strawberry">Strawberry</string>
+    <string name="strawberry_price">RS 500</string>
+
+    <string name="grapes">Grapes</string>
+    <string name="grapes_price">RS 200</string>
+
+    <string name="pear">Pear</string>
+    <string name="pear_price">RS 250</string>
+
+    <!-- Bottom Navigation -->
+    <string name="home">Home</string>
+    <string name="goals">Goals</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+
+
+    //goal
+
+    <!-- Titles -->
+    <string name="title_vision_mission">Vision / Mission</string>
+    <string name="title_vision">VISION</string>
+    <string name="title_mission">MISSION</string>
+
+    <!-- Vision Text -->
+    <string name="vision_text">To become the most trusted and customer-centric online fruit store, providing fresh, high-quality, and organic fruits while promoting a healthy lifestyle and sustainable farming.</string>
+
+    <!-- Mission Points -->
+    <string name="mission_point1">\u2714 Browse a variety of fresh fruits with high-quality images and descriptions.</string>
+    <string name="mission_point2">\u2714 Add fruits to the cart dynamically with an intuitive shopping experience.</string>
+    <string name="mission_point3">\u2714 Apply filters and search easily to find seasonal, organic, or exotic fruits.</string>
+    <string name="mission_point4">\u2714 Make secure online payments with multiple payment options.</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_goal">Goal</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_profile">Profile</string>
+
+    //setting
+
+    <!-- Profile Section -->
+    <string name="profile_name">M Ihsas</string>
+    <string name="profile_email">MohamediIhsas001@gmail.com</string>
+
+    <!-- Menu Items -->
+    <string name="your_order">Your Order</string>
+    <string name="notification">Notification</string>
+    <string name="coupons">Coupons</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="get_help">Get Help</string>
+    <string name="about">About</string>
+
+    <!-- Logout Button -->
+    <string name="log_out">Log Out</string>
+
+    //profile
+    <!-- Profile Section -->
+    <string name="profile_title">Profile</string>
+    <string name="profilename">M Ihsas</string>
+    <string name="profileemail">Mohamedihsas001@gmail.com</string>
+    <string name="profile_phone">+94 71 475 8589</string>
+    <string name="profile_address">46/2a, Al Aksha Mawatta, Moratuwa</string>
+
+    <!-- Fields -->
+    <string name="name_label">Name</string>
+    <string name="phone_label">Phone</string>
+    <string name="email_label">Email</string>
+    <string name="address_label">Address</string>
+
+    <!-- Hints -->
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_phone">Enter your phone number</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_address">Enter your address</string>
+
+    <!-- Buttons -->
+    <string name="save_changes">Save Changes</string>
+
+
+//About
+    <!-- About Section -->
+    <string name="about_title">About</string>
+    <string name="about_description">This app helps you manage your orders, track deliveries, and get support easily. Designed with simplicity and efficiency in mind.</string>
+
+    <!-- Developer Information -->
+    <string name="developer_info_title">Developer Information</string>
+    <string name="developed_by">Developed by: MR X Team</string>
+    <string name="developer_website">Website: www.MR_X_Team.com</string>
+
+    <!-- Version Information -->
+    <string name="version_info_title">Version Information</string>
+    <string name="version">Version: 1.0.0</string>
+    <string name="last_updated">Last Updated: March 19, 2025</string>
+
+    <!-- Follow Us -->
+    <string name="follow_us">Follow Us</string>
+
+    <!-- Content Descriptions -->
+    <string name="app_logo_desc">App Logo</string>
+    <string name="facebook_icon_desc">Facebook Icon</string>
+    <string name="twitter_icon_desc">Twitter Icon</string>
+    <string name="instagram_icon_desc">Instagram Icon</string>
+
+    <!-- Back Button -->
+    <string name="back_button_desc">Back</string>
+
+    //Get Help
+    <string name="gethelp">Get Help</string>
+    <string name="faqs">FAQs</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="feedback_form">Feedback Form</string>
+    <string name="submit">Submit</string>
+
+    <!-- FAQs Strings -->
+    <string name="faq_1">How do I track my order?</string>
+    <string name="faq_2">What is the return policy?</string>
+    <string name="faq_3">How can I contact customer support?</string>
+
+    <!-- Contact Information -->
+    <string name="support_email">support@example.com</string>
+    <string name="support_phone">+123 456 7890</string>
+
+    <!-- Input Hints -->
+    <string name="hintname">Your Name</string>
+    <string name="hintemail">Your Email</string>
+    <string name="hint_message">Your Message</string>
+
+    <!-- Colors (if needed in styles) -->
+    <color name="green">#4CAF50</color>
+    <color name="dark_green">#D32F2F</color>
+    <color name="blue">#3b5998</color>
+
+    <!-- Placeholder for icons' content descriptions -->
+    <string name="email_icon_desc">Email Icon</string>
+    <string name="phone_icon_desc">Phone Icon</string>
+
+
+    //Cart
+    <!-- Page Title -->
+    <string name="cart_title">Cart</string>
+
+    <!-- Item Names -->
+
+
+    <!-- Order Summary -->
+    <string name="order_label">Order</string>
+    <string name="delivery_label">Delivery</string>
+    <string name="total_label">Total</string>
+
+    <!-- Prices in Order Summary -->
+    <string name="order_price">Rs 1050 /-</string>
+    <string name="delivery_price">Rs 150 /-</string>
+    <string name="total_price">Rs 1200 /-</string>
+
+    <!-- Button Text -->
+    <string name="check_out_button">Check Out</string>
+
+
+    //Address
+    <string name="add_address">Add Address</string>
+    <string name="add_address_hint">Enter your address</string>
+    <string name="next">Next</string>
+    <string name="location">Location</string>
+    <string name="m_ihsas">M Ihsas</string>
+    <string name="address_1">46/2a, Al aksha mawatta</string>
+    <string name="address_2">Modera Moratuwa, Colombo 03</string>
+
+    //PaymentPage
+    <string name="payment_title">Payment</string>
+
+    <!-- Payment Methods -->
+    <string name="payment_method_cash_on_delivery">Cash on Delivery</string>
+    <string name="payment_method_default">Default Payment</string>
+    <string name="payment_method_visa">Visa</string>
+    <string name="payment_method_add_details">Click to add details</string>
+    <string name="payment_method_mastercard">MasterCard</string>
+
+    <!-- Button Text -->
+    <string name="button_next">Next</string>
+
+    <!-- Progress Indicators -->
+    <string name="progress_indicator_dollar">Dollar</string>
+    <string name="progress_indicator_location">Location</string>
+    <string name="progress_indicator_check">Check</string>
+
+    <!-- Payment Icons -->
+    <string name="icon_cash_on_delivery">Cash on Delivery Icon</string>
+    <string name="icon_visa">Visa Icon</string>
+    <string name="icon_mastercard">MasterCard Icon</string>
+    <string name="icon_back">Back Arrow Icon</string>
+
+
+    //Checkout
+    <string name="checkout_title">Check Out</string>
+    <string name="fruits_order">Fruits Order</string>
+    <string name="fruits_list">Fresh Apple, Banana, Orange, Grapes</string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="delivery_date_value">Friday, 15 Sep 2020</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="delivery_address_value">46/2a, Al aksha mawatta modera morattuwa, colombo 03</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cash_on_delivery">Cash on Delivery</string>
+    <string name="order">Order</string>
+    <string name="order_value">Rs 1050 /-</string>
+    <string name="delivery">Delivery</string>
+    <string name="delivery_value">Rs 150 /-</string>
+    <string name="total">Total</string>
+    <string name="total_value">Rs 1200 /-</string>
+    <string name="confirm_order">Confirm Order</string>
+
+    //Apple
+    <!-- Back Button and Title -->
+    <string name="details">Details</string>
+    <string name="favorite_button_description">Favorite Button</string>
+    <!-- Product Name and Price -->
+    <string name="product_name">Fresh Apple</string>
+    <string name="product_price">Rs 300 / KG</string>
+    <string name="review">Review</string>
+    <!-- Rating -->
+    <string name="rating_value">4.0</string>
+    <!-- Description -->
+    <string name="description_title">Description</string>
+    <string name="description_content">Our shop offers fresh, handpicked apples from the finest orchards. Carefully selected for top quality, rich flavor, and vibrant color, they’re perfect for snacking, juicing, or adding to recipes. Packed with essential nutrients, our apples are a healthy and delicious choice. Visit us today for farm-fresh goodness!</string>
+
+    <!-- Total Price -->
+    <string name="totalprice">Total Price Rs 300 / KG</string>
+    <!-- Add to Cart Button -->
+    <string name="add_to_cart">Add To Cart</string>
+    //Fruits Page
+    <string name="title_fruits_page">All Fruits</string>
+    <string name="fruit_apple">Apple</string>
+    <string name="fruit_orange">Orange</string>
+    <string name="fruit_banana">Banana</string>
+    <string name="fruit_pineapple">Pine Apple</string>
+    <string name="fruit_grapes">Grapes</string>
+    <string name="fruit_pears">Pears</string>
+    <string name="fruit_strawberry">Stawberry</string>
+    <string name="fruit_mango">Mango</string>
+    <string name="fruit_avocado">Avocado</string>
+    <string name="price_200">RS 200</string>
+    <string name="price_250">RS 250</string>
+    <string name="price_400">RS 400</string>
+    <string name="price_150">RS 150</string>
+    <string name="price_300">RS 300</string>
+    <string name="price_500">RS 500</string>
+
+
+    //Your Order
+    <string name="yourorder">Your Order</string>
+    <string name="current_order">Current Order</string>
+    <string name="track_order">Track Order</string>
+    <string name="order_history">Order History</string>
+
+    //Current Order
+    <string name="order_details">Order Details</string>
+
+    <string name="price_apple">Rs 300 / KG</string>
+
+    <string name="price_banana">Rs 150 / KG</string>
+
+    <string name="price_orange">Rs 400 / KG</string>
+
+    <string name="price_grapes">Rs 200 / KG</string>
+
+
+
+    <string name="cancel_order">Cancel Order</string>
+
+    //Track Order
+    <string name="track_details">Track Details</string>
+    <string name="colombo_04">Colombo 04</string>
+    <string name="address">46/2a, Al aksha mawatta modera morattuwa, Colombo 03</string>
+    <string name="content_description_map">Map View</string>
+    <string name="content_description_location_icon">Location Icon</string>
+    <string name="content_description_location_pin">Location Pin Icon</string>
+    <string name="content_description_back_button">Back Button</string>
+
+
+    //Order History
+
+    <string name="order_id">Order Id</string>
+    <string name="order_date">Order date</string>
+
+    <string name="clear_history">Clear History</string>
+
+    <!-- Order Items -->
+    <string name="order_1_items">Banana, Pine Apple, Grapes, Pears</string>
+    <string name="order_1_id">1001</string>
+    <string name="order_1_date">10/02/2015</string>
+    <string name="order_1_total">Rs 1500/-</string>
+
+    <string name="order_2_items">Apple, Pine Apple, Grapes, Banana</string>
+    <string name="order_2_id">1002</string>
+    <string name="order_2_date">10/02/2015</string>
+    <string name="order_2_total">Rs 1500/-</string>
+
+    <!-- Content Descriptions -->
+
+    <string name="close_icon_desc">Close Icon</string>
+    <string name="fruits_image_desc">Fruits Image</string>
+
+</resources>

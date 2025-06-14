@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color for the box -->
+    <solid android:color="#CCC7C7"/> <!-- White background, change it as needed -->
+
+    <!-- Rounded corners -->
+    <corners android:radius="20dp"/> <!-- Adjust the radius to change the roundness -->
+
+    <!-- Optional: Padding to ensure text doesn't touch the edges -->
+    <padding
+        android:left="16dp"
+        android:top="16dp"
+        android:right="16dp"
+        android:bottom="16dp"/>
+</shape>
